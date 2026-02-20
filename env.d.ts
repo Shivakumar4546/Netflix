@@ -7,3 +7,6 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv
 }
+/// <reference types="vite/client" />
+
+declare module '*.css';
